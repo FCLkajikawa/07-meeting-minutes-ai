@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes AI</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <h1>AI議事録生成</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+
+        <label>音声ファイルを選択してください</label>
+        <br><br>
+
+        <input type="file" name="audio_file" accept="audio/*">
+
+        <br><br>
+
+        <button type="submit">議事録を作成</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>議事録作成結果</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <h1>AI議事録作成結果</h1>
+
+    <h2>ファイル名</h2>
+    <p>{{ filename }}</p>
+
+    <h2>文字起こし</h2>
+    <div class="result-box">
+        {{ transcription }}
+    </div>
+
+    <h2>議事録</h2>
+    <div class="result-box minutes">
+        {{ minutes }}
+    </div>
+
+    <br>
+
+    <a href="/" class="back-button">
+        新しい議事録を作成
+    </a>
+
+</body>
+</html>

@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Uploaded meeting audio files
+uploads/
+
+# Sample/test audio files
+*.mp3
